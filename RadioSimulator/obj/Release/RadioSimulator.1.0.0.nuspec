@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RadioSimulator</id>
+    <version>1.0.0</version>
+    <authors>RadioSimulator</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0-windows7.0">
+        <dependency id="EntityFramework" version="6.5.1" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.Core" version="2.1.7" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.WinForms" version="2.1.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.DataSetExtensions" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite" version="1.0.119" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.Core" version="1.0.119" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.EF6" version="1.0.119" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.9.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\PC1\source\repos\RadioSimulator\RadioSimulator\bin\Release\net9.0-windows\RadioSimulator.runtimeconfig.json" target="lib\net9.0-windows7.0\RadioSimulator.runtimeconfig.json" />
+    <file src="C:\Users\PC1\source\repos\RadioSimulator\RadioSimulator\bin\Release\net9.0-windows\RadioSimulator.dll" target="lib\net9.0-windows7.0\RadioSimulator.dll" />
+  </files>
+</package>
